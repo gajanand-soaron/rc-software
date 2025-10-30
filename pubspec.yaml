@@ -1,0 +1,52 @@
+name: colorown
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  multicast_dns: ^0.3.2
+  web_socket_channel: ^2.4.0
+  # CORE UTILITIES
+  intl: ^0.20.2
+  http: ^1.2.2
+  provider: ^6.1.2 # State management
+
+  # DEVICE & HARDWARE
+  battery_plus: ^7.0.0
+  connectivity_plus: ^7.0.0
+  file_picker: ^10.3.3
+
+  # UI & WIDGETS
+  cupertino_icons: ^1.0.8
+  model_viewer_plus: ^1.7.2
+  flutter_joystick: ^0.2.2
+
+  # FIREBASE
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  google_sign_in: ^7.1.1
+  socket_io_client: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
